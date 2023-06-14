@@ -26,6 +26,7 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
       className={todo.isComplete ? "todo-row complete" : "todo-row"}
       key={index}
     >
+      <input type="checkbox"/>
       <div key={todo.id} onClick={() => completeTodo(todo.id)}>
         {todo.text}
       </div>

@@ -28,7 +28,7 @@ function TodoForm(props) {
       {props.edit ? (
         <>
           <input
-            placeholder="Update your item"
+            placeholder="Zaktualizuj"
             value={input}
             onChange={handleChange}
             name="text"

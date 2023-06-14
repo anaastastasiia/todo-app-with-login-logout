@@ -9,8 +9,8 @@
 body {
   background: linear-gradient(
     90deg,
-    rgb(223, 255, 16) 0%,
-    rgba(100, 115, 255, 1) 100%
+    rgb(54, 24, 110) 0%,
+    rgb(77, 88, 194) 100%
   );
 }
 .todo-app {
@@ -44,7 +44,7 @@ h1 {
 .todo-input {
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
-  border: 2px solid rgb(249, 3, 3);
+  border: 2px solid rgb(61, 24, 109);
   outline: none;
   width: 320px;
   background: transparent;
@@ -64,22 +64,22 @@ h1 {
   outline: none;
   background: linear-gradient(
     90deg,
-    rgb(249, 3, 3) 0%,
-    rgb(253, 253, 253) 100%
+    rgb(91, 34, 134) 0%,
+    rgb(150, 66, 214) 100%
   );
   color: #fff;
   text-transform: capitalize;
 }
 
 .todo-input.edit {
-  border: 2px solid rgb(249, 3, 3);
+  border: 2px solid rgb(61, 24, 109);
 }
 
 .todo-button.edit {
   background: linear-gradient(
     90deg,
-    rgb(249, 3, 3) 0%,
-    rgb(253, 253, 253) 100%
+    rgb(91, 34, 134) 0%,
+    rgb(150, 66, 214) 100%
   );
   padding: 16px 22px;
 }
@@ -98,8 +98,8 @@ h1 {
   color: #fff;
   background: linear-gradient(
     90deg,
-    rgb(223, 255, 16) 0%,
-    rgba(100, 115, 255, 1) 100%
+    rgb(54, 24, 110) 0%,
+    rgb(77, 88, 194) 100%
   );
 
   padding: 16px;
@@ -110,16 +110,16 @@ h1 {
 .todo-row:nth-child(4n+1) {
   background: linear-gradient(
     90deg,
-    rgb(249, 3, 3) 0%,
-    rgb(253, 253, 253) 100%
+    rgb(91, 34, 134) 0%,
+    rgb(150, 66, 214) 100%
   );
 }
 
 .todo-row:nth-child(4n + 2) {
   background: linear-gradient(
     90deg,
-    rgb(249, 3, 3) 0%,
-    rgb(253, 253, 253) 100%
+    rgb(91, 34, 134) 0%,
+    rgb(150, 66, 214) 100%
   );
 }
 
@@ -127,8 +127,8 @@ h1 {
   background: linear-gradient(
     90deg,
     90deg,
-    rgb(249, 3, 3) 0%,
-    rgb(253, 253, 253) 100%
+    rgb(91, 34, 134) 0%,
+    rgb(150, 66, 214) 100%
   ); 
 } 
 
@@ -151,7 +151,7 @@ h1 {
 .login-input { 
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
-  border: 2px solid rgb(249, 3, 3);
+  border: 2px solid rgb(61, 24, 109);
   outline: none;
   width: 320px;
   background: none;
@@ -181,8 +181,8 @@ h1 {
   color: #fff;
   background: linear-gradient(
     90deg,
-    rgb(223, 255, 16) 0%,
-    rgba(100, 115, 255, 1) 100%
+    rgb(54, 24, 110) 0%,
+    rgb(77, 88, 194) 100%
   );
 }
 

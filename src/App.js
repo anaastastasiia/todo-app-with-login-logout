@@ -12,17 +12,14 @@ function App() {
   const [user, setUser] = useState({ name: "", email: "" });
 
   const Login = (details) => {
-    console.log(details);
 
     if (details.email == admin.email && details.password == admin.password) {
-      console.log("Logged in");
       setUser({
         name: details.name,
         email: details.email,
       });
     } else {
       alert("Złe dane");
-      console.log("Złe dane");
     }
   };
 
@@ -39,7 +36,7 @@ function App() {
           </h2>
           <TodoList />
           <button className="log-button" onClick={Logout}>
-            Logout
+            Wyloguj się
           </button>
         </div>
       ) : (

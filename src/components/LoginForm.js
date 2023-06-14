@@ -15,7 +15,7 @@ function LoginForm({ Login }) {
         <h2 className="login-title">Login</h2>
         <div className="form-group">
           <label className="login-label" htmlFor="name">
-            Name:{" "}
+            Podaj imię:{" "}
           </label>
           <input
             type="text"
@@ -27,7 +27,7 @@ function LoginForm({ Login }) {
         </div>
         <div className="form-group">
           <label className="login-label" htmlFor="email">
-            Email:{" "}
+            E-mail:{" "}
           </label>
           <input
             type="email"
@@ -39,7 +39,7 @@ function LoginForm({ Login }) {
         </div>
         <div className="form-group">
           <label className="login-label" htmlFor="password">
-            Password:{" "}
+            Hasło:{" "}
           </label>
           <input
             type="password"
@@ -51,7 +51,7 @@ function LoginForm({ Login }) {
             }
           />
         </div>
-        <input className="log-button" type="submit" value="LOG IN" />
+        <input className="log-button" type="submit" value="Zaloguj się" />
       </div>
     </form>
   );
